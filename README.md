@@ -1,6 +1,8 @@
 # CANoodler #
 CAN to 3.3V logic level interface. Dumb. Cheap. Simple. Pick 3.
 
+![](CANoodler_assembled.png)
+
 ## About CANoodler ##
 
 CANoodler is a simple CAN (not CAN-FD) interface, which provides logic-level 3.3V output. It's designed to be used with microcontrollers that have CAN blocks inside them, and in particular uses a pinout on some ChipWhisperer CW308 (UFO) Target boards.
@@ -26,6 +28,8 @@ To build CANoodler, you'll need the following:
 * Ability to solder and/or coerce someone who can solder into doing your work
 
 ### CANoodler PCB ###
+
+You can order the PCB from [OSH Park](https://oshpark.com/projects/aEDxzHX4) or upload the gerber zip-file somewhere you like.
 
 The CANoodler PCB doesn't have part designators on the PCB. Not because I have you and want to make it hard-mode to build your own, but because I prefer having a cleaner final PCB.
 
