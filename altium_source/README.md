@@ -1,0 +1,1 @@
+The PCB source files will go here - the design uses my own libraries with a bunch of crap in them, so I need to still make a project library instead. I haven't cleaned it up to do that but will upload the source shortly (there is an open issue for this).
