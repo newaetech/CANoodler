@@ -27,6 +27,7 @@ CANoodler is simple to use. Simply:
 * Connect the TX pin to your microcontroller CAN-TX pin (this is an INPUT to the CANoodler).
 * Provide 3.3V power to the board.
 * Select if you'd like the termination resistor ON or OFF with the switch.
+* Write an entire CAN stack for your microcontroller from scratch, along with a test framework to ensure you meet  applicable relevant standards.
 
 The solder jumpers specify which pinout you'd like on the male DB9 connector.
 
