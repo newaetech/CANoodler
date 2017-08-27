@@ -31,7 +31,7 @@ To build CANoodler, you'll need the following:
 
 You can order the PCB from [OSH Park](https://oshpark.com/projects/aEDxzHX4) or upload the gerber zip-file somewhere you like.
 
-The CANoodler PCB doesn't have part designators on the PCB. Not because I have you and want to make it hard-mode to build your own, but because I prefer having a cleaner final PCB.
+The CANoodler PCB doesn't have part designators on the PCB. Not because I have you and want to make it hard-mode to build your own, but because I prefer having a cleaner final PCB and planned on mostly assembling these with a pick-n-place machine.
 
 There is an assembly drawing you will need to refer to when building the unit.
 
@@ -39,7 +39,7 @@ There is an assembly drawing you will need to refer to when building the unit.
 
 The parts list is pretty standard. The only gotcha is the 0603 size resistor for the 120-ohm CAN termination should be a 1/4W device. I recommend using P/N ERJ-PA3F1200V (this is what is used in the production built units), since it is "pulse rated" so should deal with overload a little better. 
 
-If you use a 1/10W (standard 0603) it will be mostly fine, as the CAN bus will idle around 2.5V, which means a constant 1/20W dissipation in your resistor. But if anything goes wrong (short to +5V even) you might burn up resistor.
+If you use a 1/10W (standard 0603) it will be mostly fine, as the CAN bus will idle around 2.5V, which means a constant 1/20W dissipation in your resistor. But if anything goes wrong (short to +5V even) you might burn up the resistor.
 
 ## License ##
 
