@@ -19,6 +19,29 @@ As CANoodler is not isolated, be aware you should be careful using this in a hig
 
 CANoodler will be sold by NewAE Technology Inc. (estimated available October 2017), but it's open-source hardware so you can just build one. See below for build instructions if you can't wait.
 
+## Using CANoodler ##
+
+CANoodler is simple to use. Simply:
+
+* Connect the RX pin to your microcontroller CAN-RX pin (this is an OUTPUT from the CANoodler).
+* Connect the TX pin to your microcontroller CAN-TX pin (this is an INPUT to the CANoodler).
+* Provide 3.3V power to the board.
+* Select if you'd like the termination resistor ON or OFF with the switch.
+
+The solder jumpers specify which pinout you'd like on the male DB9 connector.
+
+The default pinout is selected by shorting the LOWER and MIDDLE solder jumpers. It is used by many boards and the Peak CAN USB interface:
+
+* CAN-Low = Pin 2
+* CAN-High = Pin 7
+* CAN-GND = Pin 3
+
+The "option" pinout is set by moving each of the three solder jumpers to short the UPPER and MIDDLE pads. This pinout is used by cheap ODB-II to DB9 connectors:
+
+* CAN-Low = Pin 5
+* CAN-High = Pin 3
+* CAN-GND = Pin 2
+
 ## Building CANoodler ##
 
 To build CANoodler, you'll need the following:
