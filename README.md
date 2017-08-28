@@ -61,6 +61,8 @@ There is an assembly drawing you will need to refer to when building the unit.
 
 ### CANoodler Parts ###
 
+There is a BOM in a .XLS file, and you can get a [Digi-Key (US) Shared Cart](http://www.digikey.com/short/310jp5) or [Digi-Key (Canada) Shared Cart](http://www.digikey.ca/short/310jp5). Those links should easily translate to other countries too.
+
 The parts list is pretty standard. The only gotcha is the 0603 size resistor for the 120-ohm CAN termination should be a 1/4W device. I recommend using P/N ERJ-PA3F1200V (this is what is used in the production built units), since it is "pulse rated" so should deal with overload a little better. 
 
 If you use a 1/10W (standard 0603) it will be mostly fine, as the CAN bus will idle around 2.5V, which means a constant 1/20W dissipation in your resistor. But if anything goes wrong (short to +5V even) you might burn up the resistor.
